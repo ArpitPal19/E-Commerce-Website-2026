@@ -68,7 +68,7 @@ const Products = () => {
                       }}
                     >
                       <img
-                        src={`/api/v1/product/product-photo/${p._id}`}
+                        src={`${import.meta.env.VITE_API}/api/v1/product/product-photo/${p._id}`}
                         className="card-img-top"
                         alt={p.name}
                         style={{
